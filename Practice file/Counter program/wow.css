@@ -1,0 +1,27 @@
+#number{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttoncontainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 0.50s, padding 0.50s;
+}
+
+.buttons:hover{
+    background-color: #30c000;
+    padding: 15px 25px;
+}
+
+
+
